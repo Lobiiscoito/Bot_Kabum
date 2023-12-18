@@ -7,11 +7,11 @@ from time import sleep
 from links import links_urls
 import asyncio
 
-banco_de_dados = "amazon_bot"
-usuario_bd = "postgres"
-senha_bd = "invasao22"
-bot_token = "6328944662:AAEP3cQfgdmFW6Bf8VsMy8_9sl7Qj9MalEk"
-chat_id = "@precospromo"
+banco_de_dados = ""
+usuario_bd = ""
+senha_bd = ""
+bot_token = ""
+chat_id = "@"
 
 async def enviar_mensagem(nome_produto, valor_anterior, preco_float, link):
     bot = Bot(token=bot_token)
